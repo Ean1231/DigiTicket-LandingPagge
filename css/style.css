@@ -248,6 +248,16 @@ i{
    background-repeat: no-repeat;  
    background-repeat: no-repeat;  
 }
+.xd-content .xd-body .xd-body-inner {
+    max-height: unset;
+}
+.xd-content .xd-body p {
+    color: #02679a;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+.xd-content .xd-button.xd-ok {
+    background: #069904;
+}
 
 
 
