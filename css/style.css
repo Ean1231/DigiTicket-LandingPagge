@@ -252,6 +252,42 @@ i{
    background-repeat: no-repeat;  
    background-repeat: no-repeat;  
 }
+.feature-item4{
+    box-shadow: var(--shadow-black-100);
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-image:url("../img/resturants.jpg");
+    background-size: cover ;
+    
+   background-repeat: no-repeat;  
+   background-repeat: no-repeat;  
+}
+.feature-item5{
+    box-shadow: var(--shadow-black-100);
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-image:url("../img/events.jpg");
+    background-size: cover ;
+    
+   background-repeat: no-repeat;  
+   background-repeat: no-repeat;  
+}
+.feature-item6{
+    box-shadow: var(--shadow-black-100);
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-image:url("../img/premiumM.jpg");
+    background-size: cover ;
+    
+   background-repeat: no-repeat;  
+   background-repeat: no-repeat;  
+}
 .xd-content .xd-body .xd-body-inner {
     max-height: unset;
 }
