@@ -148,6 +148,7 @@ max-height:100%;
     object-fit: contain;
     padding: 100px 0;
     background-image: url("../img/jshjhjh.jpg");
+    height: auto;
     background-size: cover;
 background-repeat:no-repeat;
    /* border-radius: 0 0 200px 0;*/
