@@ -49,6 +49,9 @@ ul{
     text-transform: capitalize;
 
 }
+.navbar-toggle {
+    background-color: transparent;
+}
 .navbar .nav-item{
     margin-left: 40px;
 }
