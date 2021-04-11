@@ -72,7 +72,7 @@
         <div class="home-text" >
          
          <h1>
-         <img src="./img/DIGI TRANS.fw copy.png" alt="" style="width: 350px; height: 200px;"> <br>
+         <img src="./img/Screenshot (19).png" alt="" style="width: 50px; height: 45px;"> <strong style="color: white;"> Digi</strong><span style="color: #02679a;"><strong>Tictket</strong> </span><br><br>
             Easy booking at your own comfort
           </h1>
           <p>
@@ -189,26 +189,38 @@
 
   </ol>
   <div class="carousel-inner " style=" margin-bottom: 20px; position: relative; margin-top: -40px;">
-    <div class="carousel-item active">
-     
-
-      <img class="d-block w-100   img-responsive" src="./img/header-1.jpg" onclick="window.open(this.src)" alt="First slide" style="  background-size:cover; box-shadow: var(--shadow-black-100);">
-    </div>
-    <div class="carousel-item  " >
-      <img class="d-block w-100  img-responsive"  onclick="window.open(this.src)" src="./img/NEA-2016-Cover-image-1030x554.jpg" alt="Second slide" style=" background-size:cover; box-shadow: var(--shadow-black-100);">
-    </div>
-    <div class="carousel-item " >
-      <img class="d-block w-100  img-responsive" onclick="window.open(this.src)" src="./img/NEA.jpg" alt="Third slide" style=" background-size:cover;box-shadow: var(--shadow-black-100);">
-    </div>
+                                        <!-- First slide -->
     <div class="carousel-item ">
-      <img class="d-block w-100  img-responsive" onclick="window.open(this.src)" src="./img/1561043032325.jfif" alt="Fourth slide" style=" background-size:cover;box-shadow: var(--shadow-black-100);">
+      <img class="d-block w-100   img-responsive" src="./img/header-1.jpg" onclick="slide1()" alt="First slide" style="  background-size:cover; box-shadow: var(--shadow-black-100); ">
     </div>
-<a href=" https://www.spu.ac.za/index.php/launch-of-the-northern-cape-innovation-forum/">
+                                          <!-- second slide -->
+    <div class="carousel-item  " >
+      <img class="d-block w-100  img-responsive"  onclick="slide2()" src="./img/podcast.jpg" alt="Second slide" style=" background-size:cover; box-shadow: var(--shadow-black-100); ">
+    </div>
+                                                <!-- Third slide -->
+    <div class="carousel-item active" >
+      <img class="d-block w-100  img-responsive" onclick="slide3()" src="./img/mega.png" alt="Third slide" style=" background-size:cover;box-shadow: var(--shadow-black-100); ">
+    </div>
+                                                    <!-- fourth slide -->
+    <div class="carousel-item ">
+      <img class="d-block w-100  img-responsive" onclick="slide4()" src="./img/NCIF-Launch-Poster-1024x448.jpg" alt="Fourth slide" style=" background-size:cover;box-shadow: var(--shadow-black-100); ">
+    </div>
+                                                            <!-- fifth slide -->
+
   <div class="carousel-item " >
-    <img class="d-block w-100  img-responsive" onclick="window.open(this.src)" src="./img/NCIF-Launch-Poster-1024x448.jpg" alt="Fourth slide" style="background-size:cover;box-shadow: var(--shadow-black-100);">
+    <img class="d-block w-100  img-responsive" onclick="slide5()" src="./img/NEA.2.jpg" alt="Fourth slide" style="background-size:cover;box-shadow: var(--shadow-black-100); ">
   </div>
-</a>
-   
+
+                                                        <!-- sixth slide -->
+                                                        
+    <div class="carousel-item " >
+       <img class="d-block w-100  img-responsive" onclick="slide6()" src="./img/kurara-fm.jpg" alt="Fourth slide" style="background-size:cover;box-shadow: var(--shadow-black-100);">
+     </div>
+
+                                                               <!-- seventh slide -->
+       <div class="carousel-item " >
+      <img class="d-block w-100  img-responsive" onclick="slide7()" src="./img/SABC-News.jpg" alt="Fourth slide" style="background-size:cover;box-shadow: var(--shadow-black-100);">
+     </div>
 
    
     
@@ -372,6 +384,31 @@
 <script>
   function imgWindow() {
    window.open("image") }
+
+   function slide1(){
+     window.location.href = 'https://www.siliconcape.com/digital-native-partners-with-ackermans-and-pep-stores-to-broaden-customer-reach/';
+   }
+   function slide2(){
+     window.location.href = 'https://player.fm/series/on-the-grind-podcast-with-lebogang-kotsi/episode-9-tshepang-peme-of-digiticket-sa';
+   }
+   function slide3(){
+     window.location.href = 'https://www.yumpu.com/en/document/view/56974496/ke-nako-magazine';
+   }
+   function slide4(){
+     window.location.href = 'https://www.spu.ac.za/index.php/launch-of-the-northern-cape-innovation-forum/';
+   }
+   function slide5(){
+     window.location.href = 'https://disrupt-africa.com/2017/02/06/12-startups-picked-for-sa-new-economy-accelerator/';
+   }
+   function slide6(){
+     window.location.href = 'https://www.podomatic.com/podcasts/info68792/episodes/latest';
+   }
+   function slide7(){
+     window.location.href = ' https://m.youtube.com/watch?v=lmsB6BRNchc';
+   }
+   function slide8(){
+     window.location.href = '';
+   }
  </script>
 <!-- jquery js -->
 <script src="js/jquery.min.js"></script>
