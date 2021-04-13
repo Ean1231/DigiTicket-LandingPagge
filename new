@@ -1,0 +1,65 @@
+
+<div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel"  >
+  <div class="section-title">
+    <h2><b> Achievements <span>& Media features</span></h2>
+  </div>
+  
+  <ol class="carousel-indicators" >
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+  </ol>
+  <div class="carousel-inner text-center rounded mx-auto d-block" style=" margin-bottom: 20px; position: relative; margin-top: -40px; width: 50%; height: 70%; ">
+                                        <!-- First slide -->
+    <div class="carousel-item ">
+      <img class="d-block    img-responsive" src="./img/New.header-Initiative-Logo-Long.png" onclick="slide1()" alt="First slide" style="  background-size:cover; box-shadow: var(--shadow-black-100); width: 100%;">
+    </div>
+                                          <!-- second slide -->
+    <div class="carousel-item  " >
+      <img class="d-block  img-responsive"  onclick="slide2()" src="./img/resize-1618171819114474012poscassrt.jpg" alt="Second slide" style=" background-size:cover; box-shadow: var(--shadow-black-100); width: 100%;">
+    </div>
+                                                <!-- Third slide -->
+    <div class="carousel-item active" >
+      <img class="d-block  img-responsive" onclick="slide3()" src="./img/magaz.png" alt="Third slide" style=" background-size:cover; box-shadow: var(--shadow-black-100);  width: 100%;">
+    </div>
+                                                    <!-- fourth slide -->
+    <div class="carousel-item ">
+      <img class="d-block w-100  img-responsive" onclick="slide4()" src="./img/logos/NCIF.png.crdownload" alt="Fourth slide" style=" background-size:cover;box-shadow: var(--shadow-black-100); ">
+    </div>
+                                                            <!-- fifth slide -->
+
+  <div class="carousel-item " >
+    <img class="d-block w-100  img-responsive" onclick="slide5()" src="./img/logos/DZZZ123.jpg" alt="fifth slide" style="background-size:cover;box-shadow: var(--shadow-black-100); ">
+  </div>
+
+                                                        <!-- sixth slide -->
+                                                        
+    <div class="carousel-item " >
+       <img class="d-block w-100  img-responsive" onclick="slide6()" src="./img/logos/podcast.png" alt="sixth slide" style="background-size:cover;box-shadow: var(--shadow-black-100);">
+     </div>
+
+                                                               <!-- seventh slide -->
+       <div class="carousel-item " >
+      <img class="d-block w-100  img-responsive" onclick="slide7()" src="./img/logos/sabc2.jpg" alt="seventh slide" style="background-size:cover;box-shadow: var(--shadow-black-100);">
+     </div>
+                                                                        <!-- eigth slide -->
+       <div class="carousel-item " >
+         <img class="d-block w-100  img-responsive" onclick="slide8()" src="./img/radio.jpg" alt="seventh slide" style="background-size:cover;box-shadow: var(--shadow-black-100);">
+   </div>
+
+   
+    
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span  aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

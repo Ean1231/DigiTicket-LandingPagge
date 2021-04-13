@@ -303,6 +303,15 @@ i{
 .xd-content .xd-button.xd-ok {
     background: #069904;
 }
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #02679a;
+  }
+
+
+
 
 
 
