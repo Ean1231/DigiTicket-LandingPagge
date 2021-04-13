@@ -1,0 +1,327 @@
+<div id="multi-item-example" class="carousel slide carousel-multi-item jumbotron" data-ride="carousel" style="margin-bottom: 70px;">
+  <div class="section-title">
+    <h2><b> Achievements <span>& Media features</span></h2>
+  </div>
+      <!--Controls-->
+      <div class="controls-top" >
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+        <li data-target="#multi-item-example" data-slide-to="3"></li>
+
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active ">
+
+          <div class="row ">
+            <div class="col-md-4 ">
+              <div class="card mb-2 ">
+                <img class="card-img-top" src="./img/New.header-Initiative-Logo-Long.png"
+                  alt="Card image cap">
+                <div class="card-body"><br><br><br><br>
+                  <h4 class="card-title">Silicon Cape </h4>
+                  <p class="card-text">
+                    Some people, are virtual residents. They buy groceries, clothes, flight tickets, book spa visits, RSVP for birthday parties all in a digital world.  These digital natives, do not remember what life was like before Ipads and smartphones.
+
+                  </p>
+                  <a onclick="slide1()" class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/resize-1618171819114474012poscassrt.jpg"
+                  alt="Card image cap">
+                <div class="card-body"><br>
+                  <h4 class="card-title"> On the Grind Podcast.</h4>
+                  <p class="card-text">
+                    On the Grind Podcast — DigiTicket SA is an online and digital ticket solution platform which provides convenience to entertainment lifestyle such, digital event tickets, restaurant automation, accommodation booking, travel...
+                  </p>
+                  <a onclick="slide2()"  class="btn btn-primary">View</a><br>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/magaz.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Ke Nako Magazine</h4>
+                  <p class="card-text">
+                    New young and vibrant business magazine, focused on Kuruman and neighbouring Towns Share to Inspire ISSUE 1: 20 FEBRUARY 2017 PRICE : FREE ONLINE EDITION Inside ESTABLISHING UPKURARA A new entrepreneurs...
+                  </p>
+                  <a onclick="slide3()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/resize-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">SPU and Partners</h4>
+                  <p class="card-text">
+                    Sol Plaatje University (SPU) is pleased to inform you that the Northern Cape Innovation Forum (NCIF), will be launched officially, on Friday, 26 February 2021. 
+                  </p>
+                  <a onclick="slide4()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block d-xs-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/disrupt24dojmx0Z.jpeg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Disrupt Africa</h4>
+                  <p class="card-text">
+                    The cohort comprises Akwande Farm, Bolimi Bokamoso, DigiTicket SA, Gamagara Cape Solar, Kalahari Fire, Lamo Fuel Primary Cooperative, Mthura Resources, Nutrifounder Consultants...
+                  </p>
+                  <a onclick="slide5()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/kurarafm1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Kurara FM</h4>
+                  <p class="card-text">An interview on outlining the need and how to use DigiTicket online solution platform.</p><br><br>
+                  <a onclick="slide6()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/sabc22.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Tshepang Peme of DigiTicket SA</h4>
+                  <p class="card-text">
+                    For African Center of Green Economy. 
+                    DigiTicket is an online ticket solutions...
+                                      </p><br>
+                  <a onclick="slide7()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/radio.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">T in the Morning speaks to Tshepang Peme</h4>
+                  <p class="card-text">
+                    For Entrepreneur Wednesday on #TinTheMorning we feature founder of DigiTicket...
+                  </p>
+                  <a onclick="slide8()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          
+
+           
+
+        </div>
+        <!--/.Third slide-->
+
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+  </div>
+
+
+Slides
+
+
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active ">
+
+          <div class="row ">
+            <div class="col-md-4 ">
+              <div class="card mb-2 ">
+                <img class="card-img-top" src="./img/New.header-Initiative-Logo-Long.png"
+                  alt="Card image cap">
+                <div class="card-body"><br><br><br><br>
+                  <h4 class="card-title">Silicon Cape </h4>
+                  <p class="card-text">
+                    Some people, are virtual residents. They buy groceries, clothes, flight tickets, book spa visits, RSVP for birthday parties all in a digital world.  These digital natives, do not remember what life was like before Ipads and smartphones.
+
+                  </p>
+                  <a onclick="slide1()" class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4  clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/resize-1618171819114474012poscassrt.jpg"
+                  alt="Card image cap">
+                <div class="card-body"><br>
+                  <h4 class="card-title"> On the Grind Podcast.</h4>
+                  <p class="card-text">
+                    On the Grind Podcast — DigiTicket SA is an online and digital ticket solution platform which provides convenience to entertainment lifestyle such, digital event tickets, restaurant automation, accommodation booking, travel...
+                  </p>
+                  <a onclick="slide2()"  class="btn btn-primary">View</a><br>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/magaz.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Ke Nako Magazine</h4>
+                  <p class="card-text">
+                    New young and vibrant business magazine, focused on Kuruman and neighbouring Towns Share to Inspire ISSUE 1: 20 FEBRUARY 2017 PRICE : FREE ONLINE EDITION Inside ESTABLISHING UPKURARA A new entrepreneurs...
+                  </p>
+                  <a onclick="slide3()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/resize-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">SPU and Partners</h4>
+                  <p class="card-text">
+                    Sol Plaatje University (SPU) is pleased to inform you that the Northern Cape Innovation Forum (NCIF), will be launched officially, on Friday, 26 February 2021. 
+                  </p>
+                  <a onclick="slide4()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block d-xs-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/disrupt24dojmx0Z.jpeg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Disrupt Africa</h4>
+                  <p class="card-text">
+                    The cohort comprises Akwande Farm, Bolimi Bokamoso, DigiTicket SA, Gamagara Cape Solar, Kalahari Fire, Lamo Fuel Primary Cooperative, Mthura Resources, Nutrifounder Consultants...
+                  </p>
+                  <a onclick="slide5()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/kurarafm1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Kurara FM</h4>
+                  <p class="card-text">An interview on outlining the need and how to use DigiTicket online solution platform.</p><br><br>
+                  <a onclick="slide6()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/sabc22.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Tshepang Peme of DigiTicket SA</h4>
+                  <p class="card-text">
+                    For African Center of Green Economy. 
+                    DigiTicket is an online ticket solutions...
+                                      </p><br>
+                  <a onclick="slide7()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="./img/radio.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">T in the Morning speaks to Tshepang Peme</h4>
+                  <p class="card-text">
+                    For Entrepreneur Wednesday on #TinTheMorning we feature founder of DigiTicket...
+                  </p>
+                  <a onclick="slide8()"  class="btn btn-primary">View</a>
+                </div>
+              </div>
+            </div>
+          
+
+           
+
+        </div>
+        <!--/.Third slide-->
+
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+  </div>
+
